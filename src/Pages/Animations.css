@@ -1,0 +1,134 @@
+.box {
+    background: #242424;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: 'black';
+}
+
+.cloud {
+    /* z-index: 1; */
+    max-width: 50%;
+}
+
+
+.bg {
+    width: 100%;
+    z-index: -1;
+    height: 100vh;
+    top: 0;
+    /* position: absolute */
+}
+
+.sat {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    height: auto;
+    max-width: 20%;
+}
+
+.neb {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    padding: 0;
+    top: 0;
+}
+
+.fade {
+    font-size: 100px;
+    background-color: '#black';
+    z-index: 2;
+}
+
+.scroll-text {
+    font-size: 50px;
+    background-color: red;
+    border-radius: 12px;
+    padding: 2rem;  
+}
+
+.astro {
+    margin-left: 70%;
+    height: auto;
+    max-width: 10%;
+}
+
+.text{
+    font-size: 30px;
+    height: auto;
+    /* margin-top: 100%; */
+}
+
+.bg-bot {
+    z-index: -2;
+    position: relative;
+}
+
+.earth {
+    /* scale: -200px; */
+    bottom: 0;
+    /* z-index: 3; */
+    height: auto;
+    max-width: 70%;
+    position: fixed;
+}
+
+.first-layer {
+    bottom: 0;
+    height: 100%;
+    margin: -100;
+}
+
+.c {
+    position: absolute;
+    max-width: 500px;
+    max-height: 500px;
+    width: 350px;
+    height: 200px;
+    cursor: pointer;
+    will-change: to, opacity;
+  }
+  
+  .front,
+  .back {
+    background-size: cover;
+  }
+  
+  .back {
+    background-image: url(https://images.unsplash.com/photo-1544511916-0148ccdeb877?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1901&q=80i&auto=format&fit=crop);
+  }
+  
+  .front {
+    background-image: url(https://images.unsplash.com/photo-1540206395-68808572332f?ixlib=rb-1.2.1&w=1181&q=80&auto=format&fit=crop);
+  }
+  
+  .flip-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+  }
+
+  .mount-container {
+      padding: 40px;
+      margin-top: 200px;
+      min-height: 200px;
+  }
+
+  .item {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: rgba(0,0,0, 0.2) 0px 8px 24px;
+  }

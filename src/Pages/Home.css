@@ -1,0 +1,268 @@
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: 'black';
+}
+
+.cloud {
+    /* z-index: 1; */
+    max-width: 50%;
+}
+
+
+.bg {
+    width: 100%;
+    z-index: -1;
+    height: 100vh;
+    top: 0;
+    /* position: absolute */
+}
+
+.sat {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    height: auto;
+    max-width: 20%;
+}
+
+.neb {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    padding: 0;
+    top: 0;
+}
+
+.fade {
+    font-size: 100px;
+    background-color: '#black';
+    z-index: 2;
+}
+
+.scroll-text {
+    font-size: 50px;
+    background-color: red;
+    border-radius: 12px;
+    padding: 2rem;  
+}
+
+.astro {
+    margin-left: 70%;
+    height: auto;
+    max-width: 10%;
+}
+
+.text{
+    font-size: 30px;
+    height: auto;
+    /* margin-top: 100%; */
+}
+
+.bg-bot {
+    z-index: -2;
+    position: relative;
+}
+
+.earth {
+    /* scale: -200px; */
+    bottom: 0;
+    /* z-index: 3; */
+    height: auto;
+    max-width: 70%;
+    position: fixed;
+}
+
+.first-layer {
+    bottom: 0;
+    height: 100%;
+    margin: -100;
+}
+
+.name {
+    font-size: 80px;
+    color: black;
+    background-color: 'black';
+    border-radius: 12px;
+    justify-content: center;
+    display: relative;
+    text-shadow: rgb(197, 7, 197) 1px 1px 1px;
+    text-shadow: rgb(236, 118, 236) 2px 2px 1px;
+}
+
+.name-container {
+    color: coral;
+    justify-content: center;
+    margin-left: 50%;
+    max-width: 60%;
+}
+
+.my-info {
+    font-size: 24px;
+    background-color: #d7b4f3;
+    border-radius: 12px;
+    max-width: 40%;
+    /* position: relative; */
+    margin-left: 30%;
+}
+
+.about-me {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    font-size: 20px;
+    top: 40%;
+}
+
+
+.square {
+    border-radius: 20px;
+    max-width: 15%;
+    margin-left: 0%;
+    height: 200px;
+}
+
+.html {
+   height: 200px;
+   font-size: 80px;
+   color: orange;
+   margin-right: 50%;
+   margin-top: -20%;
+}
+
+.css {
+    height: 200px;
+    font-size: 80px;
+    color: blue;
+    margin-right: 50%;
+    margin-top: 0%;
+ }
+
+ .icon-container {
+    display: grid;
+    grid-template-columns: auto;
+    max-width: 80%;
+    height: auto;
+    margin-left: 3%
+ }
+
+ .ruby {
+    height: 200px;
+    font-size: 80px;
+    color: red;
+    margin-right: 50%;
+    margin-top: -2%;
+ }
+
+ .github {
+     position: relative;
+    height: 200px;
+    font-size: 80px;
+    color: rgb(46, 45, 45);
+    margin-right: 80%;
+    top: -205%;
+    left: -02%;
+ }
+
+ .photoshop {
+    position: relative;
+   height: 200px;
+   font-size: 80px;
+   color: rgb(13, 126, 233);
+   margin-right: 80%;
+   top: -205%;
+   left: -02%;
+}
+
+.instagram {
+    position: relative;
+    height: 200px;
+    font-size: 60px;
+    color: white;
+    margin-right: 80%;
+    top: -0%;
+    left: -02%;
+    /* padding: 2rem; */
+}
+
+.linkedin {
+    position: relative;
+    height: 200px;
+    font-size: 60px;
+    color: white;
+    margin-right: 80%;
+    top: -2.5%;
+    left: -2%;
+    /* padding: 2rem; */
+}
+
+
+.facebook {
+    position: relative;
+    height: 200px;
+    font-size: 60px;
+    color: white;
+    margin-right: 80%;
+    top: -15.5%;
+    left: -2%;
+}
+
+.footer-input {
+    padding: 8px 20px;
+    border-radius: 2px;
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 16px;
+    border: 1px solid #fff;
+}
+
+.footer-links {
+    width: 100%;
+    max-width: 2000px;
+    display: flex;
+    justify-content: center;
+    /* top: '20%'; */
+}
+
+.footer-link-wrapper {
+    display: flex;
+}
+
+.footer-link-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px;
+    text-align: left;
+    width: 160px;
+    box-sizing: border-box;
+}
+
+.footer-link-items  h2 {
+    margin-bottom: 16px;
+}
+
+.footer-link-items > h2 {
+    color: #fff;
+}
+
+.footer-link-items a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer-link-items a:hover {
+    color: #e9e9e9;
+    transition: 0.3s ease-out;
+}
+
+.hobby-title {
+    text-shadow: rgb(197, 7, 197) 2px 2px 4px;
+    text-shadow: rgb(236, 118, 236) 1px 1px 1px;
+    text-shadow: rgb(100, 44, 100) 3px 3px 1px;
+}
