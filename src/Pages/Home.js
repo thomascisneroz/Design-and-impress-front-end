@@ -39,7 +39,7 @@ const Home =(props) => {
     return(
     <div className='container'>
         <Parallax className='outer-para' pages={2.7}>
-            <ParallaxLayer className='first-layer' offset={0} factor={3} speed={1} style={{backgroundColor: 'black'}} > 
+            <ParallaxLayer className='first-layer' offset={0} factor={3} speed={1} style={{backgroundColor: 'black', backgroundImage: 'url(https://i.pinimg.com/564x/cb/b1/bb/cbb1bb00c1c8b65feecfb3b314fb4839.jpg)', backgroundSize: 'cover'}} > 
             </ParallaxLayer>
             <ParallaxLayer className='second-layer' offset={.5}>
                 <animated.div className='name-container' style={{backgroundColor: '', marginTop: '-20%', maxWidth: '40%'}} >
@@ -56,7 +56,7 @@ const Home =(props) => {
             <ParallaxLayer offset={1} speed={2} style={{backgroundColor: '#d7b4f3', position: 'relative', justifyContent: 'center', borderRadius: '40px', maxWidth: '30%', marginLeft: '10%', top: '-45%', height: 'auto'}}>
                 {/* <br></br> */}
                 <div className='about-me'>
-                    <p className='me'>
+                    <p className='me' style={{padding: '10px'}}>
                         <p>
                             Design, captivate, and impress.
                         {/* </p> */}
@@ -79,7 +79,7 @@ const Home =(props) => {
                     </p>
                 </div>
             </ParallaxLayer>
-            <ParallaxLayer offset={1} speed={2} style={{backgroundColor: '#d7b4f3', position: 'relative', justifyContent: 'center', borderRadius: '40px', maxWidth: '30%', marginLeft: '70%', top: '-25%', height: 'auto', fontSize: '30px', marginTop: '-10%'}}>
+            <ParallaxLayer offset={1} speed={2} style={{backgroundColor: '#d7b4f3', position: 'relative', justifyContent: 'center', borderRadius: '40px', maxWidth: '30%', marginLeft: '70%', top: '-25%', height: 'auto', fontSize: '30px', marginTop: '-10%',padding: '10px'}}>
                 Here are some things that I enjoy below.
                 <p>And check out my other pages for request and examples of what I have done.</p>
                 {/* <p>More personal stuff below</p> */}

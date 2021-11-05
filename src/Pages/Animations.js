@@ -40,11 +40,11 @@ const styling = useSpring({
     loop: true,
     to: [
         {opacity: 1, color: 'white' },
-        {opacity: 0, color: 'black' },
+        {opacity: 0, color: 'transparent' },
 ],
-from: {opactity: 0, color: 'black' },
+from: {opactity: 0, color: 'transparent' },
 display: 'flex', 
-config: {duration: 3000},
+config: {duration: 1000},
 justifyContent: 'center',
 alignItems: 'center',
 position: 'relative',
@@ -144,7 +144,7 @@ const styles = useSpring({
                             items.length ? <animated.div style={style} className='item'/> : '' )}
                         </div>
                 </div> */}
-                <animated.div className='fade' style={styling}>Spooky fades</animated.div>
+                <animated.div className='fade' style={styling}>Fading text transitions</animated.div>
             </ParallaxLayer>
             <ParallaxLayer offset={0.5} speed={1} >
                 
@@ -210,6 +210,21 @@ const styles = useSpring({
                 <animated.div style={{fontSize: '30px', color: 'white', rotateZ: 270, y: 45}}>Marquee</animated.div></animated.div>
                 <img className='cloud' src={cloud} alt='cloud' style={{marginLeft: '80%', Height: 'auto', maxWidth: '20%'}} />
             </ParallaxLayer>
+            <ParallaxLayer offset={0.2} speed={-3} style={{color: 'white', }}>
+                <div className='grid-example-container' >
+                    <div className='grid-example-wrapper' style={{backgroundColor: 'gray'}}>
+                        <div className='grid-example'>
+                            Like the Animations on this page your presentation can become so much more.
+                        </div>
+                        <div className='grid-example'>
+                            These side by side grids will travel down with your scroll.
+                        </div>
+                        <div className='grid-example' >
+                            If we disappear you can bring us back by scrolling back up.
+                        </div>
+                    </div>
+                </div>
+            </ParallaxLayer>
             <ParallaxLayer offset={1.1} speed={.7} style={{}}>
                 <animated.div style={moonStyle}>
                 <img className='moon' src={moon} alt='moon' style={{marginLeft: '60%', Height: 'auto', maxWidth: '20%'}} />
@@ -231,6 +246,10 @@ const styles = useSpring({
                                     <p>
                                         There is so much you can do with CSS and stlying that I can talk about forever and show you. 
                                     </p>
+                                    <br></br>
+                                    <p>Without it you can see everything is dull and boring just something presented.</p>
+                                    <p>With CSS you can give life and personality to your apps and web pages.</p>
+                                    <p>I can't wait to hear from, work, stlye and creating animations with you.</p>
                 </ParallaxLayer>
             <ParallaxLayer offset={1} speed={1.50} style={{maxHeight: 'auto', magrinbottom: 'auto', marginLeft: '10%'}} >
                 <img className='astro' src={astro} alt='astro'/>

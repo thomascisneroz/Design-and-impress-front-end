@@ -77,6 +77,8 @@ const Comments = (props) => {
                     <label>Details:</label>
                     <input type='text' placeholder='Details' value={details} onChange={typingDetails} />
                     <input type='submit' value='Submit' />
+                    <br></br>
+                    <text>You need to sign in to leave a request.</text>
                </form>
             </div>
             </div> 

@@ -49,7 +49,7 @@ const Navbar = () => {
                     </li>
                     <li className='nav-item'>
                         <Link to='/animations' className='nav-links' onClick={closeMobileMenu}>
-                            Animations
+                            Animations <FaIcons.FaCss3Alt />
                         </Link>
                     </li>
                     <li className='nav-item'>
