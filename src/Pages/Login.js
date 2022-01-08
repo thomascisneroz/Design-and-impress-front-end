@@ -12,7 +12,6 @@ const Login = (props) => {
     const tpyingLPW = (e) => {
         setLoggedIPW(e.target.value)
     }
-    // const [activeUser, currentActiveUser] =useState('')
 
 
     //for signup
@@ -30,13 +29,7 @@ const Login = (props) => {
     }
     // console.log(currentUser)
 
-    // useEffect(() =>{
-    //     fetch('http://localhost:3000/users')
-    //     .then(resp => resp.json())
-    //     .then(userData => {
-    //         console.log(userData)
-    //     })
-    // }, [])
+    
 
 
     const tpyingForLogin = (synthEvent) => {
