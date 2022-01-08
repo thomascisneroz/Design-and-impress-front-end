@@ -2,13 +2,7 @@ import React, {useState, useEffect} from 'react';
 import {useSpring, useTransition, animated, config} from 'react-spring';
 import {Parallax, ParallaxLayer} from '@react-spring/parallax'
 import './Animations.css';
-// import Hobby from '../Components/Hobby';
-// const slides = [
-//     { id: 0, url: 'photo-1544511916-0148ccdeb877?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1901&q=80i' },
-//     { id: 1, url: 'photo-1544572571-ab94fd872ce4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1534&q=80' },
-//     { id: 2, url: 'reserve/bnW1TuTV2YGcoh1HyWNQ_IMG_0207.JPG?ixlib=rb-1.2.1&w=1534&q=80' },
-//     { id: 3, url: 'photo-1540206395-68808572332f?ixlib=rb-1.2.1&w=1181&q=80' },
-//   ]
+
 
 const Animations = (props) => {
     console.log(props.userNOW)
@@ -20,7 +14,6 @@ const earth = '/Earth.png';
 const cloud = '/Cloud-hd.png';
 const moon = '/moon.png'
 // hobbies fetch
-// const [flipped, set] = useState([]);
 const [items, setItems] = useState([]);
 const [woobly, setWoobly] = useState(false);
 const transition = useTransition( items , {
@@ -90,23 +83,6 @@ const styles = useSpring({
 
   
   
-//   const fadeTransition = () => {
-    // const [index, set] = useState(0)
-    // const transitions = useTransition(slides[index], item => item.id, {
-    //   from: { opacity: 0 },
-    //   enter: { opacity: 1 },
-    //   leave: { opacity: 0 },
-    //   config: config.molasses,
-    // })
-    // useEffect(() => void setInterval(() => set(state => (state + 1) % 4), 2000), [])
-    // return transitions.map(({ item, props, key }) => (
-    //   <animated.div
-    //     key={key}
-    //     class="bg"
-    //     style={{ ...props, backgroundImage: `url(https://images.unsplash.com/${item.url}&auto=format&fit=crop)` }}
-    //   />
-    // ))
-//   }
 
     return(
         <div className='container' >
@@ -134,16 +110,8 @@ const styles = useSpring({
             factor={3}
             style={{display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: 'black', backgroundSize: 'cover'}} 
             >
-                {/* <animated.div className='fade' style={styling}>Nobody expects the spanish inquisition</animated.div> */}
             </ParallaxLayer>
             <ParallaxLayer offset={0} speed={1} factor={3} style={{backgroundColor: 'grey', backgroundSize: 'cover', backgroundImage: `url(${bg})`}} >
-                {/* <div classNam='flip-container' style={{ color: 'white'}} >
-                    <button onClick={()=> setItems(v => v.legnth ? [] : [{}])} >{items ? 'un-mount' : 'mount'}</button>
-                        <div className='mount-container'>
-                            {transition((style, item) =>
-                            items.length ? <animated.div style={style} className='item'/> : '' )}
-                        </div>
-                </div> */}
                 <animated.div className='fade' style={styling}>Fading text transitions</animated.div>
             </ParallaxLayer>
             <ParallaxLayer offset={0.5} speed={1} >
@@ -189,7 +157,6 @@ const styles = useSpring({
                     <animated.div  style={{
                         width: 80,
                         height: 80,
-                        // backgroundColor: '#46e891',
                         borderRadius: 16,
                         rotateZ: 90,
                         ...styles,
@@ -202,7 +169,6 @@ const styles = useSpring({
                     width: 80,
                     height: 80,
                     borderRadius: 16,
-                    // backgroundColor: 'pink',
                     rotateZ: 90,
                     ...ship,
                     y: -1000,
@@ -231,7 +197,6 @@ const styles = useSpring({
                 </animated.div>
             </ParallaxLayer>
                 <ParallaxLayer offset={1} speed={6} style={{color: 'white', maxHeight: '50%', backgroundColor: 'gray'}}> 
-                     {/* <img className='cloud' src={cloud} alt='cloud' style={{marginRight: '80%', marginRight: '70%', Height: 'auto', maxWidth: '40%'}} /> */}
                      <div className='text' >
                          With CSS the universe is whatever you want it to be
                     </div>
