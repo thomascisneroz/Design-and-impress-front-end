@@ -12,17 +12,7 @@ import * as DiIcons from 'react-icons/di'
 
 
 const Home =(props) => {
-    // console.log(props.userNOW)
-    // const styles = useSpring({
-    //     from: {x: -300 , opactiy: 0},
-    //     to: 
-    //         {x: 300, y: 80, opacity: 1}, 
-    // delay: 200,
-    // config: {duration: 3000},
-    //     loop: {reverse: true},
-    //     reset: true,
-    //     // reverse: true,
-    // })
+     
 
     const flip = useSpring({
         loop: true,
@@ -31,11 +21,6 @@ const Home =(props) => {
         config: {duration: 5000},
     })
 
-    // const iconSpin = useSpring({
-    //     loop: true,
-    //     from: { opactiy: 0},
-    //     to: { opacity: 0},
-    // })
     return(
     <div className='container'>
         <Parallax className='outer-para' pages={2.7}>
