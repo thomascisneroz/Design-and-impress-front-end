@@ -37,8 +37,11 @@ Here is a example of signing up and logging in
 
 
 
+https://user-images.githubusercontent.com/82288444/148704498-b64dcc7f-418f-4708-9086-1d6b0ed7d5b9.mp4
 
-https://user-images.githubusercontent.com/82288444/148663089-ddd9a465-4ad0-475c-ba25-5c30444f240a.mp4
+
+
+
 
 
 After logging in you can now head back to the Request page and make your own request should you have one like in this example.
