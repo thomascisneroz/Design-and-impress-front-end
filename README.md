@@ -13,7 +13,7 @@ Shown below is the landing Home Page which shows a little bit of information on 
 
 https://user-images.githubusercontent.com/82288444/148662875-59fdbf2e-269b-4876-adef-941b61979ec8.mp4
 
-After landing on the Hame page and Reading through some of the info if you like.
+After landing on the Home page and Reading through some of the info if you like.
 
 You can then navigate using the Navbar to the animations page with examples of some of the animations that I can create and showcase in this project.
 
